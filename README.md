@@ -8,7 +8,7 @@ It's a C#-based Application, that allows you to control your Musiccast-Systems w
 - Change the volume in Steps or with a value or mute
 
 # NOTES
-I, Turksat46, Kerem Okumus, am not responsible, if you brake your MusicCast. Do it at your own risk. 
+I, Turksat46, Kerem Okumus, am not responsible, if you break your MusicCast. Do, use, manipulate it at your own risk. 
 Please do not use this tool to manipulate devices, that you do not own!
 
 # TO-DO
