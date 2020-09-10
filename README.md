@@ -1,5 +1,5 @@
 # Musiccast-Controller
-It's a C#-based Application, that allows you to control your Musiccast-Systems with your PC.
+It's a C#-based Application, that allows you to control your Musiccast-Systems with your PC and Tizen-Watches with Version 4.0 or higher.
 
 # Features
 - Power On or Off your MusicCast-System
@@ -7,7 +7,12 @@ It's a C#-based Application, that allows you to control your Musiccast-Systems w
 - Control your Music playing (Play, Pause, Next, Prev. etc...)
 - Change the volume in Steps or with a value or mute
 
+# NOTES
+I, Turksat46, Kerem Okumus, am not responsible, if you brake your MusicCast. Do it at your own risk. 
+Please do not use this tool to manipulate devices, that you do not own!
+
 # TO-DO
+- Add a security-feature to prevent attacks on other MusicCast-Devices!!!
 - Release the first Executable
 - Upload all the files, that are in the project
 - Make a normal UI
