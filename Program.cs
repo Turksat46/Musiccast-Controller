@@ -39,29 +39,10 @@ namespace MusicCast_Controller_V1
                     //WebRequest request = WebRequest.Create("http://" + address.ToString() + "/YamahaExtendedControl/v1/main/setPower?power=on");
                     //WebResponse response = request.GetResponse();
                     //Console.WriteLine(((HttpWebResponse)response).StatusDescription);
-                    //break;
-
-                    //SecurityCheck
-                    //Get Network Name
-                    Console.WriteLine("Creating Security-Question!");
-                    WebRequest request = WebRequest.Create("http://" + address.ToString() + "/YamahaExtendedControl/v1/system/getNetworkStatus");
-                    WebResponse response = request.GetResponse();
-                    Console.WriteLine(((HttpWebResponse)response).StatusDescription);
-                    using (Stream dataStream = response.GetResponseStream())
-                    {
-                        // Open the stream using a StreamReader for easy access.
-                        StreamReader reader = new StreamReader(dataStream);
-                        // Read the content.
-                        string responseFromServer = reader.ReadToEnd();
-                        // Display the content.
-                        Console.WriteLine(responseFromServer);
-
-
-                    }
+        
                     break;
                 }
-                    
-            
+              
             }
 
             //Start the Menu!
